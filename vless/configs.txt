@@ -1,5 +1,5 @@
 # Category: vless
-# Updated: 2025-12-13 10:26:39
+# Updated: 2025-12-13 11:20:49
 # Count: 705
 
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@144.31.4.72:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=video.intfreed.ru&fp=qq&security=reality&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&sid=7755e972daf8eec8#ARISTA🔥
