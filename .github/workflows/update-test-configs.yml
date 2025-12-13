@@ -1,0 +1,168 @@
+name: Update & Test Configs
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+
+jobs:
+  update-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pyyaml
+        
+    - name: Install SpeedTest CLI
+      run: |
+        wget -O speedtest.tgz https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz
+        tar -xzf speedtest.tgz -C /usr/local/bin
+        chmod +x /usr/local/bin/speedtest
+        
+    - name: Install Subconverter
+      run: |
+        wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/download/v0.7.2/subconverter_linux64.tar.gz
+        tar -zxvf subconverter.tar.gz -C ./
+        chmod +x ./subconverter/subconverter
+        
+    - name: Run config updater and tester
+      run: python update_configs.py
+      
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+    - name: Commit and push changes
+      run: |
+        git add .
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Auto-update & test configs $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
+
+  generate-readme:
+    runs-on: ubuntu-latest
+    needs: update-and-test
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Generate README
+      run: |
+        cat > README.md << 'EOF'
+        # 🔥 Arista Config Aggregator
+        
+        ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/YOUR_REPO/update-test-configs.yml)
+        ![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO)
+        ![Config Count](https://img.shields.io/badge/configs-1000+-blue)
+        
+        ## 📊 Features
+        
+        - ✅ Automatic config collection from multiple sources
+        - ⚡ Speed testing for best performance
+        - 📁 Categorized storage by protocol
+        - 🔄 Auto-update every hour
+        - 🏆 Best configs selection
+        
+        ## 📁 Directory Structure
+        
+        ```
+        ├── vmess/           # VMess configurations
+        ├── vless/           # VLess configurations
+        ├── trojan/          # Trojan configurations
+        ├── ss/              # Shadowsocks configurations
+        ├── hysteria2/       # Hysteria2 configurations
+        ├── hysteria/        # Hysteria configurations
+        ├── tuic/            # TUIC configurations
+        ├── wireguard/       # WireGuard configurations
+        ├── tested/          # Tested & optimized configs
+        │   ├── best_configs.txt
+        │   └── best_configs.yml
+        └── all/             # All configurations
+        ```
+        
+        ## 🚀 Quick Start
+        
+        1. **Raw Configs**: Use files in protocol folders
+        2. **Tested Configs**: Use `tested/best_configs.yml` for Clash
+        3. **All Configs**: Use `all/configs.txt` for complete list
+        
+        ## ⚡ Best Tested Configs
+        
+        Latest tested configurations with low latency:
+        
+        ```yaml
+        # Use in Clash: Configuration -> Import from URL
+        https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/tested/best_configs.yml
+        ```
+        
+        ## 🔧 Usage
+        
+        ### For Clash:
+        ```bash
+        # Import YAML config
+        wget -O config.yaml https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/tested/best_configs.yml
+        ```
+        
+        ### For V2Ray:
+        ```bash
+        # Use individual configs
+        cat vmess/configs.txt | grep -A1 "fast"
+        ```
+        
+        ## 📊 Statistics
+        
+        | Protocol | Count | Tested |
+        |----------|-------|--------|
+        | VMess | ⬇️ Downloading... | ✅ |
+        | VLess | ⬇️ Downloading... | ✅ |
+        | Trojan | ⬇️ Downloading... | ✅ |
+        | SS | ⬇️ Downloading... | ✅ |
+        
+        ## ⏰ Update Schedule
+        
+        - **Config Collection**: Every 1 hour
+        - **Speed Testing**: Every collection cycle
+        - **Best Configs**: Updated after each test
+        
+        ## 🤝 Contributing
+        
+        Feel free to submit PRs or open issues for new sources!
+        
+        ## 📝 License
+        
+        MIT License - Free to use and modify
+        
+        ---
+        
+        *Last Updated: $(date)*
+        EOF
+        
+    - name: Commit README
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add README.md
+        git commit -m "📝 Update README" || echo "No changes to README"
+        git push

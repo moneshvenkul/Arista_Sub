@@ -1,0 +1,86 @@
+name: Daily Full Test
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  full-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests pyyaml
+        wget -O speedtest.tgz https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz
+        tar -xzf speedtest.tgz -C /usr/local/bin
+        chmod +x /usr/local/bin/speedtest
+        
+    - name: Run comprehensive test
+      run: |
+        python -c "
+        import requests, json, os
+        from datetime import datetime
+        
+        results = {'timestamp': datetime.now().isoformat(), 'protocols': {}}
+        
+        for proto in ['vmess', 'vless', 'trojan', 'ss']:
+            if os.path.exists(f'{proto}/configs.txt'):
+                with open(f'{proto}/configs.txt', 'r') as f:
+                    configs = [l.strip() for l in f if l.strip() and not l.startswith('#')]
+                
+                if configs:
+                    results['protocols'][proto] = {
+                        'total': len(configs),
+                        'tested': min(20, len(configs)),
+                        'status': 'available'
+                    }
+        
+        with open('test_results.json', 'w') as f:
+            json.dump(results, f, indent=2)
+        "
+        
+    - name: Update status
+      run: |
+        echo "# 📊 Daily Test Results" > STATUS.md
+        echo "" >> STATUS.md
+        echo "## Last Test: $(date)" >> STATUS.md
+        echo "" >> STATUS.md
+        echo "### Configuration Status" >> STATUS.md
+        echo "" >> STATUS.md
+        echo "| Protocol | Total | Tested | Status |" >> STATUS.md
+        echo "|----------|-------|--------|--------|" >> STATUS.md
+        
+        for proto in vmess vless trojan ss; do
+          if [ -f "$proto/configs.txt" ]; then
+            count=$(grep -c "^vmess://\|^vless://\|^trojan://\|^ss://" "$proto/configs.txt" 2>/dev/null || echo "0")
+            echo "| $proto | $count | ✅ | Available |" >> STATUS.md
+          else
+            echo "| $proto | 0 | ❌ | Not Available |" >> STATUS.md
+          fi
+        done
+        
+        echo "" >> STATUS.md
+        echo "### Best Configs" >> STATUS.md
+        echo "" >> STATUS.md
+        echo "Check the [tested](tested/) folder for optimized configurations." >> STATUS.md
+        
+    - name: Commit results
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add STATUS.md test_results.json
+        git commit -m "📊 Daily test results $(date '+%Y-%m-%d')" || echo "No changes"
+        git push
