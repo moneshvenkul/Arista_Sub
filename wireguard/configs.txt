@@ -1,23 +1,18 @@
 # Category: wireguard
-# Updated: 2025-12-13 01:51:49
-# Count: 48
+# Updated: 2025-12-13 02:27:09
+# Count: 44
 
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#ARISTA🔥
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#ARISTA🔥
 wgHyI60lDRZvscVo&sid=a20d3ed244c76426#ARISTA🔥
+wg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru#ARISTA🔥
 wgisws#ARISTA🔥
+wgows&security=tls&encryption=none&insecure=1&host=639009907244596240.tucson-amsiz.info&type=ws&allowInsecure=1&sni=639009907244596240.tucson-amsiz.info#ARISTA🔥
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=6ba85179e30d4fc2#ARISTA🔥
-wg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=6ba85179e30d4fc2#ARISTA🔥
-wg2qnZhtuM2K8gQENvbmZpZ0ZyZWUiLCJhZGQiOiJhLmNvbmZpZ25vci5zaXRlIiwicG9ydCI6NzQ0MywiaWQiOiJkYTRhZmJhMS1kMDAzLTRiYjAtYTA5Yy01Mzg0NjgxOTk1NTkiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidGxzIjoibm9uZSIsInR5cGUiOiJub25lIn0=`
-vless://bf92bdef-ab8d-4481-8798-2d39023357b2@fin.intfreed.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=video.intfreed.ru&fp=qq&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&sid=7755e972daf8eec8&type=tcp&headerType=none#ARISTA🔥
-wg2qnZhtuM2K8gQENvbmZpZ0ZyZWUiLCJhZGQiOiIxMjkuMjEyLjE5NC4xNjQiLCJwb3J0Ijo3NDQzLCJpZCI6IjgwOTQxYWE0LTkzMDgtNDFlNy04YmZlLTIyOTlkNzdiYzNiMyIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUifQ==
-vless://31b05a69-6495-4626-af65-744ee0528fc5@5.181.3.26:8443?type=tcp&security=reality&pbk=hXfPCZOhQK8nVigmFqtGT6G-6sXjSWfP2sAdUB_LGDU&fp=chrome&sni=stackoverflow.com&sid=b5c94e61f0d429&spx=%2F&flow=xtls-rprx-vision#ARISTA🔥
-wgisws&security=tls&encryption=none&insecure=0&host=hazmkardan.info&type=ws&allowInsecure=0&sni=hazmkardan.info#ARISTA🔥
+wgows&security=tls&encryption=none&host=639009907244596240.tucson-amsiz.info&type=ws&sni=639009907244596240.tucson-amsiz.info#ARISTA🔥
 wgHyI60lDRZvscVo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=a20d3ed244c76426#ARISTA🔥
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc#ARISTA🔥
-wg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru#ARISTA🔥
 wgows&security=tls&encryption=none&host=639009907244596240.tucson-amsiz.info&allowinsecure=0&type=ws&sni=639009907244596240.tucson-amsiz.info#ARISTA🔥
-wgows&security=tls&encryption=none&host=639009907244596240.tucson-amsiz.info&type=ws&sni=639009907244596240.tucson-amsiz.info#ARISTA🔥
 wgisws&security=tls&encryption=none&host=hazmkardan.info&type=ws&sni=hazmkardan.info#ARISTA🔥
 wgws&security=tls&alpn=h2&encryption=none&fp=chrome&type=ws&sni=638981351827252195.insight-amshd.com#ARISTA🔥
 wgImFkZCI6ICJhLmNvbmZpZ25vci5zaXRlIiwgInBvcnQiOiA3NDQzLCAiaWQiOiAiNmQwM2E1NDctY2Y1Yy00YWQ1LThlNDAtMzE4MzM4NmY3OWZlIiwgImFpZCI6IDAsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIm5vbmUiLCAic25pIjogInd3dy5taWNyb3NvZnQuY29tIiwgIm5hbWUiOiAi2KjYpyDYs9ix2LnYqiDZhtmI2LEg2YjYtdmEINio2KfYtCBAQ29uZmlnRnJlZSJ9
@@ -92,14 +87,11 @@ vmess://eyJhZGQiOiAibjE3NDQ0NTQ0OTgubGllNWQuY3lvdSIsICJhaWQiOiAiMCIsICJhbHBuIjog
 wgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm4xNzQ0NDU0NTAxLjR1OW1hLmljdSIsICJpZCI6ICJiZWQ3Yjc0My02YmY4LTQ2YTItYjM0Ni1jNjBlNjA5MTkyMjAiLCAiaW5zZWN1cmUiOiAiMSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA0NDMsICJwcyI6ICLwn4ev8J+HtSA0NyAtIEpQIC0gVk1lc3MvV1MvVExTIC0gNDQzIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJuMTc0NDQ1NDUwMS40dTltYS5pY3UiLCAidGxzIjogInRscyIsICJ0eXBlIjogIi0tLSIsICJ2IjogIjIiLCAibmFtZSI6ICJDaGFubmVsIGlkOkBwcm94eV9rYWZlZfCfh6/wn4e1In0=
 
 vmess://eyJhZGQiOiAicHEtYnJhemlsMS4wOXZwbi5jb20iLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAicHEtYnJhemlsMS4wOXZwbi5jb20iLCAiaWQiOiAiYzA0YzNiMzQtNzBmZC00ZmVjLTk2M2UtYzEyZDA5ZjM2YmVmIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcy8iLCAicG9ydCI6IDgwLCAicHMiOiAi8J+Hp/Cfh7cgNDggLSBCUiAtIFZNZXNzL1dTIC0gODAiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJuYW1lIjogIj4+QHZtZXNzaXJhbjo6QlIifQ==#ARISTA🔥
-wgQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=static.rutube.ru&sid=ffffffffff#ARISTA🔥
 wg2lFWruzisAY8t6ouWZ3JoQ_47XAl-jUx8tJx0&fp=chrome&sni=miro.com&sid=acd96c5fc628f1&spx=%2F#ARISTA🔥
+wgQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=static.rutube.ru&sid=ffffffffff#ARISTA🔥
 wgaWQ6QHByb3h5X2thZmVl8J+Hr/Cfh7UiLCJzY3kiOiJhdXRvIiwic25pIjoibjE3NDQ0NTQ1MDEuNHU5bWEuaWN1IiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPaEhhNUFzRDFXY1Y2MWYxNTg0M1dL@95.164.123.197:36611#ARISTA🔥
-wgImhvc3QiOiAiIiwgImlkIjogImNmYzVhODdmLTNjMTMtNGUyNS1iNTU2LTE3NmNkZDZiNWM2YSIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiMjgwMTEiLCAicHMiOiAiXHVkODNkXHVkZmUzXHVkODNkXHVkZDI1K0NoYW5uZWwrU2VydmVyK0ZyZWUrQEZhcmFoX1ZQTiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-
-vless://281d153a-2fae-4725-84ed-602fb3627ca6@89.23.123.59:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#ARISTA🔥
 wg0-tdvgqe-2gok.la.shifen.uk#ARISTA🔥
 wg0-td5oia-1m49t.us.hyhuawei.com#ARISTA🔥
 wg0-tdvgqe-2gok.la.shifen.uk&insecure=0#ARISTA🔥
