@@ -1,8 +1,7 @@
 # Category: trojan
-# Updated: 2025-12-13 11:20:49
-# Count: 31
+# Updated: 2025-12-13 12:51:22
+# Count: 30
 
-trojan://LxJCPOP40a@206.206.77.237:51469/?type=grpc&sni=cloudflare.com&fp=chrome&security=reality&pbk=nlxKGGnvTUULdJlG1vfRbiG9IFrbFYC9VMnMWNH_A3s&sid=793dfc59cf7edf#ARISTA🔥
 trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=diningtable.electricbanana.click#ARISTA🔥
 trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?security=tls&headerType=none&type=tcp&sni=diningtable.electricbanana.click#ARISTA🔥
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.106.144:4054?sni=www.nintendogames.net&path=/#ARISTA🔥
