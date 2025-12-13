@@ -1,5 +1,5 @@
 # Category: hysteria
-# Updated: 2025-12-13 18:34:26
+# Updated: 2025-12-13 19:20:09
 # Count: 2
 
 hysteria://51.159.226.1:49003?upmbps=11&downmbps=55&auth=dongtaiwang.com&insecure=1&peer=apple.com&alpn=h3#ARISTA🔥
