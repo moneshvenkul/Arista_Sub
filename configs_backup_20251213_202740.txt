@@ -1,7 +1,9 @@
-# All Configurations
-# Updated: 2025-12-13 20:27:40
-# Total Count: 2530
+# Backup: 20251213_202740
+# Total Configs: 2530
+# Tested Configs: 0
 
+
+# === VMESS === #
 vmess://eyJhZGQiOiI3NC4xMTcuMTk2LjIzMiIsImhvc3QiOiJpbWFmYWtlLmxvY2tlciIsInNuaSI6ImltYWZha2UubG9ja2VyIiwiaWQiOiI0ZWM2NmQ4MS05NTY1LTRkOGUtYWU1OC0yYmFjZmRlOTVmNDgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6MjQ4NTksInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1IiwidGxzIjoidGxzIiwiZnAiOiJjaHJvbWUiLCJ2IjoyLCJhaWQiOjAsInR5cGUiOiJub25lIn0=
 vmess://eyJhZGQiOiI3NC4xMTcuMTk2LjIzMiIsImhvc3QiOiJpbWFmYWtlLmxvY2tlciIsInNuaSI6ImltYWZha2UubG9ja2VyIiwiaWQiOiI0ZjNjZmRhMy1hMjU1LTQwZWItODgwMS03MWY5ZmZmYjE5ZDYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6MjQ4NTksInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1IiwidGxzIjoidGxzIiwiZnAiOiJjaHJvbWUiLCJ2IjoyLCJhaWQiOjAsInR5cGUiOiJub25lIn0=
 vmess://eyJhZGQiOiI3NC4xMTcuMTk2LjIzMiIsImhvc3QiOiJpbWFmYWtlLmxvY2tlciIsInNuaSI6ImltYWZha2UubG9ja2VyIiwiaWQiOiI1NGEwYmY2ZC1mMmI1LTRiMmEtOTQyYy03OThmYjEyOTUyN2UiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6MjQ4NTksInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1IiwidGxzIjoidGxzIiwiZnAiOiJjaHJvbWUiLCJ2IjoyLCJhaWQiOjAsInR5cGUiOiJub25lIn0=
@@ -161,6 +163,8 @@ vmess://eyJhZGQiOiIxNjQuMTM4LjIwMi41NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 vmess://eyJhZGQiOiI1LjIzMS41Ni45OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1ZjJmMDc2NS1mMzMxLTRkMWUtODU2MC1kMmZiNTMzZGQ2ZmUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIiLCJwb3J0IjoiMzcyMSIsInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiJubTczODYudGVlb29tYm9vbS5kZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoibm03Mzg2LnRlZW9vbWJvb20uZGUiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92aWRlby8ydXB2eGxhLm0zdTgiLCJwb3J0IjoiNDQzIiwicHMiOiJBUklTVEFcdWQ4M2RcdWRkMjUiLCJzY3kiOiJhdXRvIiwic25pIjoibm03Mzg2LnRlZW9vbWJvb20uZGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiJqbDJrbGoudGVlb29tYm9vbS5kZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoiamwya2xqLnRlZW9vbWJvb20uZGUiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92aWRlby83bXRjMWYubTN1OCIsInBvcnQiOiI0NDMiLCJwcyI6IkFSSVNUQVx1ZDgzZFx1ZGQyNSIsInNjeSI6ImF1dG8iLCJzbmkiOiJqbDJrbGoudGVlb29tYm9vbS5kZSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+
+# === VLESS === #
 vless://7e2fe77a-7aef-458a-87b7-9a656bf79f07@dwarvensniper.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=clients3.google.com&fp=chrome&security=reality&pbk=ftMfz4IHU_nGPFxS8ddp2HTS6DPxurYWjG8HwAeHnH8&sid=5df42470e9#ARISTA🔥
 vless://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443/?type=tcp&encryption=none&flow=&sni=www.microsoft.com&fp=chrome&security=reality&pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&sid=3471fa2412678660#ARISTA🔥
 vless://0d7ec99f-84d1-48dc-bf06-fefbc886a9f4@invoker.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=cdn.steamstatic.com&fp=chrome&security=reality&pbk=wYJxQU_EMrR5hV1elpfFZU7bzVIq0L5XFqgkzocfVCk&sid=1c#ARISTA🔥
@@ -886,6 +890,8 @@ vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=
 vless://7ec108c5-5c08-4a9f-ad1b-bf60328792d4@news.zoom.us:2096?path=%2Ffree-server.techsonic.cloud&security=tls&alpn=h3&encryption=none&type=ws&sni=free-server.techsonic.cloud#ARISTA🔥
 vless://7270612b-49f6-4b04-999c-34d8263da767@cosmin.ns.cloudflare.com:443?path=%2Faymdlws&security=tls&encryption=none&host=picassoo.info&type=ws&sni=picassoo.info#ARISTA🔥
 vless://df0af1c8-b758-9acd-6e70-aa85b66cbe62@Itw.sefrtasad.com:3159?security=reality&encryption=none&pbk=6OGcyIWrZ5pcyi5cdzDZdFneV2DDrXKV2c8x_KGnG0Q&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=translation.steampowered.com&sid=21432a79954b#ARISTA🔥
+
+# === TROJAN === #
 trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=diningtable.electricbanana.click#ARISTA🔥
 trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?security=tls&headerType=none&type=tcp&sni=diningtable.electricbanana.click#ARISTA🔥
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.106.144:4054?sni=www.nintendogames.net&path=/#ARISTA🔥
@@ -916,6 +922,8 @@ trojan://telegram-id-privatevpns@52.57.200.67:22222?security=tls&alpn=http/1.1&h
 trojan://telegram-id-privatevpns@63.179.165.124:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#ARISTA🔥
 trojan://tpCznR-P5%3DjZUb%23c@66.245.193.152:17126?security=tls&headerType=none&type=tcp&sni=ctaldikgfyw.uefahpgsyz.click#ARISTA🔥
 trojan://trojan@ip.sb:8443?path=/&security=tls&host=fofang.pages.dev&type=ws&sni=fofang.pages.dev#ARISTA🔥
+
+# === SS === #
 ss://7e2fe77a-7aef-458a-87b7-9a656bf79f07@dwarvensniper.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=clients3.google.com&fp=chrome&security=reality&pbk=ftMfz4IHU_nGPFxS8ddp2HTS6DPxurYWjG8HwAeHnH8&sid=5df42470e9#ARISTA🔥
 ss://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443/?type=tcp&encryption=none&flow=&sni=www.microsoft.com&fp=chrome&security=reality&pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&sid=3471fa2412678660#ARISTA🔥
 ss://0d7ec99f-84d1-48dc-bf06-fefbc886a9f4@invoker.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=cdn.steamstatic.com&fp=chrome&security=reality&pbk=wYJxQU_EMrR5hV1elpfFZU7bzVIq0L5XFqgkzocfVCk&sid=1c#ARISTA🔥
@@ -2224,6 +2232,8 @@ ss://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=%2F
 ss://7ec108c5-5c08-4a9f-ad1b-bf60328792d4@news.zoom.us:2096?path=%2Ffree-server.techsonic.cloud&security=tls&alpn=h3&encryption=none&type=ws&sni=free-server.techsonic.cloud#ARISTA🔥
 ss://7270612b-49f6-4b04-999c-34d8263da767@cosmin.ns.cloudflare.com:443?path=%2Faymdlws&security=tls&encryption=none&host=picassoo.info&type=ws&sni=picassoo.info#ARISTA🔥
 ss://df0af1c8-b758-9acd-6e70-aa85b66cbe62@Itw.sefrtasad.com:3159?security=reality&encryption=none&pbk=6OGcyIWrZ5pcyi5cdzDZdFneV2DDrXKV2c8x_KGnG0Q&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=translation.steampowered.com&sid=21432a79954b#ARISTA🔥
+
+# === HYSTERIA2 === #
 hysteria2://12929592-a7bd-41eb-ab4d-d804f76c4ff9@74.117.196.232:57668/?sni=imafake.locker&fp=chrome#ARISTA🔥
 hysteria2://254551f6-ec28-4938-ad0e-0aa4aa1965ec@74.117.196.232:57668/?sni=imafake.locker&fp=chrome#ARISTA🔥
 hysteria2://27104fae-f047-4993-902a-9368d8a3e9bc@74.117.196.232:57668/?sni=imafake.locker&fp=chrome#ARISTA🔥
@@ -2473,9 +2483,15 @@ hysteria2://9772ecf2-6732-4bfb-a8b1-f48af577c76c@113.192.61.19:63979?security=tl
 hysteria2://77238c49bd20e407f05e0c073ad08fdb@dd.openaccessnode.com:989?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi&insecure=1&sni=dd.ircybersec.org#ARISTA🔥
 hysteria2://b2da9920-b0a7-4354-9e26-3833ab8d00d0@74.117.196.232:44287/?sni=imafake.locker&fp=chrome#ARISTA🔥
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@206.71.158.41:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1&sni=api.kermanshahi.org&note=@freeOnlineVPN#ARISTA🔥
+
+# === HYSTERIA === #
 hysteria://51.159.226.1:49003?upmbps=11&downmbps=55&auth=dongtaiwang.com&insecure=1&peer=apple.com&alpn=h3#ARISTA🔥
 hysteria://208.87.243.187:15823?upmbps=100&downmbps=100&auth=dongtaiwang.com&insecure=1&peer=apple.com&alpn=h3#ARISTA🔥
+
+# === TUIC === #
 tuic://80747420-96c4-4a2f-83e6-eea4e46beb09:80747420-96c4-4a2f-83e6-eea4e46beb09@drhystuichdfy.samanidempire.org:41053/?congestion_control=cubic&udp_relay_mode=native&alpn=h3&sni=drhystuichdfy.samanidempire.org#ARISTA🔥
+
+# === WIREGUARD === #
 wgHyI60lDRZvscVo&sid=a20d3ed244c76426#ARISTA🔥
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#ARISTA🔥
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#ARISTA🔥
@@ -2576,6 +2592,8 @@ wg0-tdvgqe-2gok.la.shifen.uk#ARISTA🔥
 wg0-tdvgqe-2gok.la.shifen.uk&insecure=0#ARISTA🔥
 wg0-td5oia-1m49t.us.hyhuawei.com#ARISTA🔥
 wg0-t6h87s-63bp.la.shifen.uk#ARISTA🔥
+
+# === OTHER === #
 WgzxXcFetXiPfzxpdQ3gXKmJxA&sid=04350b#ARISTA🔥
 WGMqUPg5pmwu1akbFACRg&sid=332d4a4e#ARISTA🔥
 wG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
