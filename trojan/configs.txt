@@ -1,5 +1,5 @@
 # Category: trojan
-# Updated: 2025-12-13 14:23:38
+# Updated: 2025-12-13 15:24:46
 # Count: 30
 
 trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=diningtable.electricbanana.click#ARISTA🔥
