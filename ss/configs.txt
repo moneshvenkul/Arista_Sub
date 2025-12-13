@@ -1,5 +1,5 @@
 # Category: ss
-# Updated: 2025-12-13 08:32:21
+# Updated: 2025-12-13 09:26:17
 # Count: 1288
 
 ss://bf92bdef-ab8d-4481-8798-2d39023357b2@144.31.4.72:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=video.intfreed.ru&fp=qq&security=reality&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&sid=7755e972daf8eec8#ARISTA🔥
