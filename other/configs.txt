@@ -1,14 +1,14 @@
 # Category: other
-# Updated: 2025-12-14 08:33:32
+# Updated: 2025-12-14 09:26:27
 # Count: 11
 
 WgzxXcFetXiPfzxpdQ3gXKmJxA&sid=04350b#ARISTA🔥
 WGMqUPg5pmwu1akbFACRg&sid=332d4a4e#ARISTA🔥
 WgzxXcFetXiPfzxpdQ3gXKmJxA&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=update.googleapis.com&sid=04350b#ARISTA🔥
-wG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
-wG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=swiss.video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
+wG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&sid=7755e972daf8eec8&type=tcp&headerType=none#ARISTA🔥
+wG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
+wG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=us.video.intfreed.ru&sid=7755e972daf8eec8#ARISTA🔥
 WGUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119&security=tls&encryption=none&host=002.eLEctroCeLLco-cf-002.WOrkErs.DEv&fp=chrome&type=ws&sni=002.eLEctroCeLLco-cf-002.WOrkErs.DEv#ARISTA🔥
-WgzxXcFetXiPfzxpdQ3gXKmJxA&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=update.googleapis.com&sid=04350b#ARISTA🔥
 WguY2MiLCJpZCI6IjExMmFjMzZmLTNmNTMtNGUyNi04MzcxLWQyNWMwMjhlMWI5YSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjA4MiIsInBzIjoiQ2hhbm5lbCBpZDpAcHJveHlfa2FmZWUg8J+Hq/Cfh7ciLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@202.181.103.246:1334?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=www.nintendogames.net#ARISTA🔥
