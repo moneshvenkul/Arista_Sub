@@ -1,5 +1,5 @@
 # Category: ss
-# Updated: 2025-12-14 02:20:10
+# Updated: 2025-12-14 04:02:28
 # Count: 1351
 
 ss://7e2fe77a-7aef-458a-87b7-9a656bf79f07@dwarvensniper.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=clients3.google.com&fp=chrome&security=reality&pbk=ftMfz4IHU_nGPFxS8ddp2HTS6DPxurYWjG8HwAeHnH8&sid=5df42470e9#ARISTA🔥
