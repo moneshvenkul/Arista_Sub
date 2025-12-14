@@ -1,7 +1,9 @@
-# All Configurations
-# Updated: 2025-12-14 08:33:32
-# Total Count: 2427
+# Backup: 20251214_083333
+# Total Configs: 2427
+# Tested Configs: 0
 
+
+# === VMESS === #
 vmess://eyJhZGQiOiI3NC4xMTcuMTk2LjIzMiIsImhvc3QiOiJpbWFmYWtlLmxvY2tlciIsInNuaSI6ImltYWZha2UubG9ja2VyIiwiaWQiOiI0ZWM2NmQ4MS05NTY1LTRkOGUtYWU1OC0yYmFjZmRlOTVmNDgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6Mzk0NzAsInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1IiwidGxzIjoidGxzIiwiZnAiOiJjaHJvbWUiLCJ2IjoyLCJhaWQiOjAsInR5cGUiOiJub25lIn0=
 vmess://eyJhZGQiOiI3NC4xMTcuMTk2LjIzMiIsImhvc3QiOiJpbWFmYWtlLmxvY2tlciIsInNuaSI6ImltYWZha2UubG9ja2VyIiwiaWQiOiI0ZjNjZmRhMy1hMjU1LTQwZWItODgwMS03MWY5ZmZmYjE5ZDYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6Mzk0NzAsInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1IiwidGxzIjoidGxzIiwiZnAiOiJjaHJvbWUiLCJ2IjoyLCJhaWQiOjAsInR5cGUiOiJub25lIn0=
 vmess://eyJhZGQiOiI3NC4xMTcuMTk2LjIzMiIsImhvc3QiOiJpbWFmYWtlLmxvY2tlciIsInNuaSI6ImltYWZha2UubG9ja2VyIiwiaWQiOiI1NGEwYmY2ZC1mMmI1LTRiMmEtOTQyYy03OThmYjEyOTUyN2UiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6Mzk0NzAsInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1IiwidGxzIjoidGxzIiwiZnAiOiJjaHJvbWUiLCJ2IjoyLCJhaWQiOjAsInR5cGUiOiJub25lIn0=
@@ -148,6 +150,8 @@ vmess://eyJhZGQiOiIxNjQuMTM4LjIwMi41NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 vmess://eyJhZGQiOiI1LjIzMS41Ni45OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1ZjJmMDc2NS1mMzMxLTRkMWUtODU2MC1kMmZiNTMzZGQ2ZmUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIiLCJwb3J0IjoiMzcyMSIsInBzIjoiQVJJU1RBXHVkODNkXHVkZDI1Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiJubTczODYudGVlb29tYm9vbS5kZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoibm03Mzg2LnRlZW9vbWJvb20uZGUiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92aWRlby8ydXB2eGxhLm0zdTgiLCJwb3J0IjoiNDQzIiwicHMiOiJBUklTVEFcdWQ4M2RcdWRkMjUiLCJzY3kiOiJhdXRvIiwic25pIjoibm03Mzg2LnRlZW9vbWJvb20uZGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiJqbDJrbGoudGVlb29tYm9vbS5kZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoiamwya2xqLnRlZW9vbWJvb20uZGUiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92aWRlby83bXRjMWYubTN1OCIsInBvcnQiOiI0NDMiLCJwcyI6IkFSSVNUQVx1ZDgzZFx1ZGQyNSIsInNjeSI6ImF1dG8iLCJzbmkiOiJqbDJrbGoudGVlb29tYm9vbS5kZSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+
+# === VLESS === #
 vless://7e2fe77a-7aef-458a-87b7-9a656bf79f07@dwarvensniper.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=clients3.google.com&fp=chrome&security=reality&pbk=ftMfz4IHU_nGPFxS8ddp2HTS6DPxurYWjG8HwAeHnH8&sid=5df42470e9#ARISTA🔥
 vless://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443/?type=tcp&encryption=none&flow=&sni=www.microsoft.com&fp=chrome&security=reality&pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&sid=3471fa2412678660#ARISTA🔥
 vless://0d7ec99f-84d1-48dc-bf06-fefbc886a9f4@invoker.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=cdn.steamstatic.com&fp=chrome&security=reality&pbk=wYJxQU_EMrR5hV1elpfFZU7bzVIq0L5XFqgkzocfVCk&sid=1c#ARISTA🔥
@@ -916,6 +920,8 @@ vless://465f35d5-897c-4ce0-811c-24ac58711f45@70.34.201.248:443?type=grpc&encrypt
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.155.240:443?mode=gun&security=&encryption=none&type=grpc#ARISTA🔥
 vless://7ec108c5-5c08-4a9f-ad1b-bf60328792d4@news.zoom.us:2096?path=%2Ffree-server.techsonic.cloud&security=tls&alpn=h3&encryption=none&type=ws&sni=free-server.techsonic.cloud#ARISTA🔥
 vless://df0af1c8-b758-9acd-6e70-aa85b66cbe62@Itw.sefrtasad.com:3159?security=reality&encryption=none&pbk=6OGcyIWrZ5pcyi5cdzDZdFneV2DDrXKV2c8x_KGnG0Q&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=translation.steampowered.com&sid=21432a79954b#ARISTA🔥
+
+# === TROJAN === #
 trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=diningtable.electricbanana.click#ARISTA🔥
 trojan://trojan@ip.sb:8443?path=%2F&security=tls&insecure=1&host=fofang.pages.dev&type=ws&allowInsecure=1&sni=fofang.pages.dev#ARISTA🔥
 trojan://.+QAJot50sDi6mvb@5.188.108.13:11790?security=tls&sni=runningshoes.purpletornado.click&path=/#ARISTA🔥
@@ -952,6 +958,8 @@ trojan://telegram-id-privatevpns@52.29.174.57:22222?security=tls&alpn=http/1.1&h
 trojan://tpCznR-P5%3DjZUb%23c@66.245.193.152:17126?security=tls&headerType=none&type=tcp&sni=ctaldikgfyw.uefahpgsyz.click#ARISTA🔥
 trojan://trojan@ip.sb:8443?path=/&security=tls&host=fofang.pages.dev&type=ws&sni=fofang.pages.dev#ARISTA🔥
 trojan://trojan@ip.sb:8443?path=/&security=tls&insecure=1&host=fofang.pages.dev&type=ws&allowInsecure=1&sni=fofang.pages.dev#ARISTA🔥
+
+# === SS === #
 ss://7e2fe77a-7aef-458a-87b7-9a656bf79f07@dwarvensniper.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=clients3.google.com&fp=chrome&security=reality&pbk=ftMfz4IHU_nGPFxS8ddp2HTS6DPxurYWjG8HwAeHnH8&sid=5df42470e9#ARISTA🔥
 ss://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443/?type=tcp&encryption=none&flow=&sni=www.microsoft.com&fp=chrome&security=reality&pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&sid=3471fa2412678660#ARISTA🔥
 ss://0d7ec99f-84d1-48dc-bf06-fefbc886a9f4@invoker.fonixapp.org:2083/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=cdn.steamstatic.com&fp=chrome&security=reality&pbk=wYJxQU_EMrR5hV1elpfFZU7bzVIq0L5XFqgkzocfVCk&sid=1c#ARISTA🔥
@@ -2131,6 +2139,8 @@ ss://2ee2a715-d541-416a-8713-d66567448c2e@91.98.155.240:443?mode=gun&security=&e
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiU2xnQ29HaEFwT2I1NXRJTUQwenhZ@185.39.204.161:33563#ARISTA🔥
 ss://7ec108c5-5c08-4a9f-ad1b-bf60328792d4@news.zoom.us:2096?path=%2Ffree-server.techsonic.cloud&security=tls&alpn=h3&encryption=none&type=ws&sni=free-server.techsonic.cloud#ARISTA🔥
 ss://df0af1c8-b758-9acd-6e70-aa85b66cbe62@Itw.sefrtasad.com:3159?security=reality&encryption=none&pbk=6OGcyIWrZ5pcyi5cdzDZdFneV2DDrXKV2c8x_KGnG0Q&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=translation.steampowered.com&sid=21432a79954b#ARISTA🔥
+
+# === HYSTERIA2 === #
 hysteria2://12929592-a7bd-41eb-ab4d-d804f76c4ff9@74.117.196.232:48787/?sni=imafake.locker&fp=chrome#ARISTA🔥
 hysteria2://254551f6-ec28-4938-ad0e-0aa4aa1965ec@74.117.196.232:48787/?sni=imafake.locker&fp=chrome#ARISTA🔥
 hysteria2://27104fae-f047-4993-902a-9368d8a3e9bc@74.117.196.232:48787/?sni=imafake.locker&fp=chrome#ARISTA🔥
@@ -2373,9 +2383,15 @@ hysteria2://b01d1e26-2f84-48da-88a1-1d06a77857f3@74.117.196.232:49229/?sni=imafa
 hysteria2://ByBeTp5j5C@83.147.253.96:2053?security=tls&obfs=salamander&obfs-password=MiracleV2RayyNGvpnfreeconf&insecure=1&sni=webservice-admin.tgju.org#ARISTA🔥
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@gy5.nezhasu.com:443?security=tls&insecure=1&mport=50000-65535&sni=gy5.nezhasu.com#ARISTA🔥
 hysteria2://RZjK7qHG15@91.99.225.11:443?security=tls&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle&insecure=1&sni=refersion.com#ARISTA🔥
+
+# === HYSTERIA === #
 hysteria://51.159.226.1:49003?upmbps=11&downmbps=55&auth=dongtaiwang.com&insecure=1&peer=apple.com&alpn=h3#ARISTA🔥
 hysteria://208.87.243.187:15823?upmbps=100&downmbps=100&auth=dongtaiwang.com&insecure=1&peer=apple.com&alpn=h3#ARISTA🔥
+
+# === TUIC === #
 tuic://80747420-96c4-4a2f-83e6-eea4e46beb09:80747420-96c4-4a2f-83e6-eea4e46beb09@drhystuichdfy.samanidempire.org:41053/?congestion_control=cubic&udp_relay_mode=native&alpn=h3&sni=drhystuichdfy.samanidempire.org#ARISTA🔥
+
+# === WIREGUARD === #
 wgHyI60lDRZvscVo&sid=a20d3ed244c76426#ARISTA🔥
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#ARISTA🔥
 wg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#ARISTA🔥
@@ -2469,6 +2485,8 @@ wg0-tdvgqe-2gok.la.shifen.uk#ARISTA🔥
 wg0-tdvgqe-2gok.la.shifen.uk&insecure=0#ARISTA🔥
 wg0-td5oia-1m49t.us.hyhuawei.com#ARISTA🔥
 wg0-t6h87s-63bp.la.shifen.uk#ARISTA🔥
+
+# === OTHER === #
 WgzxXcFetXiPfzxpdQ3gXKmJxA&sid=04350b#ARISTA🔥
 WGMqUPg5pmwu1akbFACRg&sid=332d4a4e#ARISTA🔥
 WgzxXcFetXiPfzxpdQ3gXKmJxA&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=update.googleapis.com&sid=04350b#ARISTA🔥
