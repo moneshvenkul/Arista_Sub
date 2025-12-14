@@ -1,6 +1,6 @@
 # Category: hysteria2
-# Updated: 2025-12-14 14:24:03
-# Count: 242
+# Updated: 2025-12-14 15:24:50
+# Count: 241
 
 hysteria2://12929592-a7bd-41eb-ab4d-d804f76c4ff9@74.117.196.232:48787/?sni=imafake.locker&fp=chrome#ARISTA🔥
 hysteria2://254551f6-ec28-4938-ad0e-0aa4aa1965ec@74.117.196.232:48787/?sni=imafake.locker&fp=chrome#ARISTA🔥
@@ -49,7 +49,6 @@ hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36300?security=tls&obfs=sa
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36400?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#ARISTA🔥
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36400?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#ARISTA🔥
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35200?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#ARISTA🔥
-hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35200?sni=YAPC-1.afshin.ir&path=%2f&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#ARISTA🔥
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#ARISTA🔥
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&sni=YAPC-1.afshin.ir#ARISTA🔥
 hysteria2://ae845cbd-08fb-4346-929a-e28a6f3960a8@hk1.shiyuandian.shop:24591?insecure=1&sni=hk1.shiyuandian.shop#ARISTA🔥
