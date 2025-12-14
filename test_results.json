@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-12-14T03:27:45.162709",
+  "protocols": {
+    "vmess": {
+      "total": 151,
+      "tested": 20,
+      "status": "available"
+    },
+    "vless": {
+      "total": 756,
+      "tested": 20,
+      "status": "available"
+    },
+    "trojan": {
+      "total": 30,
+      "tested": 20,
+      "status": "available"
+    },
+    "ss": {
+      "total": 1351,
+      "tested": 20,
+      "status": "available"
+    }
+  }
+}
